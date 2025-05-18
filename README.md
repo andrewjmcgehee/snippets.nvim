@@ -1,10 +1,4 @@
-# Friendly Snippets
-
-Snippets collection for a set of different programming languages.
-
-The only goal is to have one community driven repository for all kinds of
-snippets in all programming languages, this way you can have it all in one
-place.
+# Snippets
 
 ## Install
 
