@@ -6,14 +6,16 @@
   "contributes": {
     "snippets": [
       {
-        "note": "cpp",
-        "language": "cpp",
-        "path": "./snippets/cpp/cpp.json"
-      },
-      {
-        "note": "cpp",
-        "language": "cpp",
-        "path": "./snippets/cpp/cppdoc.json"
+        "note": "all",
+        "language": [
+          "all",
+          "global",
+          "html",
+          "markdown",
+          "plaintext",
+          "tex"
+        ],
+        "path": "./snippets/all.json"
       },
       {
         "note": "css",
@@ -33,34 +35,22 @@
       {
         "note": "docker-compose",
         "language": "yaml",
-        "path": "./snippets/docker/docker-compose.json"
+        "path": "./snippets/docker-compose.json"
       },
       {
-        "note": "docker-file",
+        "note": "dockerfile",
         "language": "dockerfile",
-        "path": "./snippets/docker/docker-file.json"
+        "path": "./snippets/dockerfile.json"
       },
       {
         "note": "flutter",
         "language": "flutter",
-        "path": "./snippets/frameworks/flutter.json"
+        "path": "./snippets/flutter.json"
       },
       {
         "note": "git",
         "language": "gitcommit",
-        "path": "./snippets/gitcommit.json"
-      },
-      {
-        "note": "global",
-        "language": [
-          "all",
-          "global",
-          "html",
-          "markdown",
-          "plaintext",
-          "tex"
-        ],
-        "path": "./snippets/global.json"
+        "path": "./snippets/git.json"
       },
       {
         "note": "go",
@@ -72,7 +62,8 @@
         "language": [
           "html",
           "htmldjango",
-          "javascriptreact"
+          "javascriptreact",
+          "typescriptreact"
         ],
         "path": "./snippets/html.json"
       },
@@ -82,22 +73,14 @@
           "javascript",
           "javascriptreact",
           "svelte",
+          "typescript",
+          "typescriptreact",
           "vue"
         ],
-        "path": "./snippets/javascript/javascript.json"
+        "path": "./snippets/javascript.json"
       },
       {
-        "note": "javascript",
-        "language": "javascript",
-        "path": "./snippets/javascript/jsdoc.json"
-      },
-      {
-        "note": "javascript",
-        "language": "javascriptreact",
-        "path": "./snippets/javascript/react.json"
-      },
-      {
-        "note": "k8s",
+        "note": "kubernetes",
         "language": "yaml",
         "path": "./snippets/kubernetes.json"
       },
@@ -114,12 +97,7 @@
       {
         "note": "lua",
         "language": "lua",
-        "path": "./snippets/lua/lua.json"
-      },
-      {
-        "note": "lua",
-        "language": "luadoc",
-        "path": "./snippets/lua/luadoc.json"
+        "path": "./snippets/lua.json"
       },
       {
         "note": "make",
@@ -134,37 +112,26 @@
       {
         "note": "python",
         "language": "python",
-        "path": "./snippets/python/comprehension.json"
+        "path": "./snippets/python.json"
       },
       {
-        "note": "python",
-        "language": "python",
-        "path": "./snippets/python/pydoc.json"
-      },
-      {
-        "note": "python",
-        "language": "python",
-        "path": "./snippets/python/python.json"
-      },
-      {
-        "note": "python",
-        "language": "python",
-        "path": "./snippets/python/unittest.json"
+        "note": "react",
+        "language": [
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./snippets/react.json"
       },
       {
         "note": "shell",
         "language": [
+          "bash",
           "sh",
           "shell",
           "shellscript",
           "zsh"
         ],
-        "path": "./snippets/shell/shell.json"
-      },
-      {
-        "note": "shell",
-        "language": "shell",
-        "path": "./snippets/shell/shelldoc.json"
+        "path": "./snippets/shell.json"
       },
       {
         "note": "sql",
@@ -177,20 +144,7 @@
           "typescript",
           "typescriptreact"
         ],
-        "path": "./snippets/javascript/typescript.json"
-      },
-      {
-        "note": "typescript",
-        "language": [
-          "typescript",
-          "typescriptreact"
-        ],
-        "path": "./snippets/javascript/tsdoc.json"
-      },
-      {
-        "note": "typescript",
-        "language": "typescriptreact",
-        "path": "./snippets/javascript/react-ts.json"
+        "path": "./snippets/typescript.json"
       },
       {
         "note": "terraform",
