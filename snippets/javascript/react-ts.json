@@ -5,12 +5,12 @@
   },
   "jsx elements map": {
     "prefix": "map",
-    "body": "{${1:array}.map((item) => <${2:elementName} key={item.id}>\n\t$0\n</${2}>)}",
+    "body": "{${1:array}.map((item, idx) => <${2:elementName} key={idx}>\n\t$0\n</${2}>)}",
     "description": "an element self closed"
   },
   "jsx elements map with return": {
     "prefix": "mapr",
-    "body": "{${1:array}.map((item) => {\n\treturn <${2:elementName} key={item.id}>\n\t$0\n</${2}>\n})}",
+    "body": "{${1:array}.map((item, idx) => {\n\treturn <${2:elementName} key={idx}>\n\t$0\n</${2}>\n})}",
     "description": "an element self closed"
   },
   "useState": {
