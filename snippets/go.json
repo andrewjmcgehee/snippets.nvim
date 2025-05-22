@@ -287,5 +287,6 @@
     "if key in a map": {
         "prefix": "om",
         "body": "if ${1:value}, ok := ${2:map}[${3:key}]; ok {\n\t$4\n}"
+        "description": "Snippet for key in map"
     }
 }
