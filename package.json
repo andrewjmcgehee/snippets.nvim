@@ -147,6 +147,13 @@
         "path": "./snippets/typescript.json"
       },
       {
+        "note": "typst",
+        "language": [
+          "typst"
+        ],
+        "path": "./snippets/typst.json"
+      },
+      {
         "note": "terraform",
         "language": "terraform",
         "path": "./snippets/terraform.json"
