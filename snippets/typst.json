@@ -1,0 +1,50 @@
+{
+  "mt": {
+    "prefix": "mt",
+    "body": "$$1$",
+    "description": "Math mode autosnippet",
+    "scope": "autosnippet"
+  },
+  "t": {
+    "prefix": "t",
+    "body": "^($1)",
+    "description": "Superscript",
+    "scope": "snippet"
+  },
+  "rt": {
+    "prefix": "rt",
+    "body": "^($1)",
+    "description": "Superscript autosnippet",
+    "scope": "autosnippet"
+  },
+  "mmt": {
+    "prefix": "mmt",
+    "body": "$ $1 $",
+    "description": "Double math mode autosnippet",
+    "scope": "autosnippet"
+  },
+  "iff": {
+    "prefix": "iff",
+    "body": "<==>",
+    "description": "If and only if autosnippet",
+    "scope": "autosnippet"
+  },
+  "impl": {
+    "prefix": "impl",
+    "body": "==>",
+    "description": "Implies",
+    "scope": "snippet"
+  },
+  "mla": {
+    "prefix": "mla",
+    "body": [
+      "Andrew J. McGehee",
+      "",
+      "#let today = datetime.today()",
+      "#today.display()",
+      "",
+      "$1"
+    ],
+    "description": "MLA format"
+  }
+}
